@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/47/cb/74/47cb74a41a649ee216d72db990ce3786.gif);
+    animation: moveBackground 20s linear infinite;
+    image-rendering:optimizeQuality;
+    backface-visibility: hidden;
+}
+img:nth-of-type(2){
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+img:nth-last-of-type(3){
+    width: 700px;
+    height: auto;
+    margin: 20px auto;
+    display:block;
+}
+img:nth-last-of-type(1){
+    width: 700px;
+    height: auto;
+    margin:20px auto;
+    display: block;
+}
+
+a{
+    display:block;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #FFBD33;
+}
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    color: #FFBD33;
+    font-size: 45px;
+}
+
