@@ -1,0 +1,29 @@
+body {
+background-image: url(https://i.gifer.com/origin/21/216196df323cfc18fb23d8ba7764b395_w200.gif);
+animation: moveBackground 20s linear infinite;
+image-rendering:optimizeQuality;
+backface-visibility: hidden;
+background-size:cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 300px;
+height:300vx;
+margin: auto;
+}
+
+h1 {
+    color:white;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+a{
+    color: white;
+    
+}
